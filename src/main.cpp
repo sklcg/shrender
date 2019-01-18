@@ -9,9 +9,8 @@
 #include "render.hpp"
 #include "process.hpp"
 
-int main(int argc, char* argv[]) 
-{
-	Processor processor;
-	processor.Process(argc, argv);
-	return 0;
+int main(int argc, char* argv[]){
+    Processor processor;
+    processor.Process(argc, argv);
+    return 0;
 }
